@@ -1,0 +1,60 @@
+.root {
+    -fx-background-color: #f5f5f5;
+    -fx-font-family: "Malgun Gothic";
+}
+
+/* 헤더 로고 */
+.logo-image {
+    -fx-fit-height: 60px;
+    -fx-preserve-ratio: true;
+}
+
+/* 유저 정보 박스 */
+.user-info-box {
+    -fx-background-color: #e0f7fa;
+    -fx-border-color: #00796b;
+    -fx-border-radius: 10;
+    -fx-padding: 20;
+}
+
+/* 버튼 스타일 */
+.button-primary {
+    -fx-background-color: #00796b;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+}
+
+/* 베스트셀러 책 박스 */
+.best-seller-box {
+    -fx-padding: 10;
+    -fx-border-color: #d3d3d3;
+    -fx-border-radius: 5;
+    -fx-background-color: #f9f9f9;
+}
+
+/* 메뉴, 책 정보 영역 */
+.menu-pane, .book-info-pane {
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-min-width: 300;
+    -fx-min-height: 300;
+}
+
+/* 베스트셀러 순위 텍스트 */
+.rank-1 {
+    -fx-font-weight: bold;
+    -fx-text-fill: gold;
+    -fx-font-size: 14px;
+}
+.rank-2 {
+    -fx-font-weight: bold;
+    -fx-text-fill: silver;
+    -fx-font-size: 14px;
+}
+.rank-3 {
+    -fx-font-weight: bold;
+    -fx-text-fill: brown;
+    -fx-font-size: 14px;
+}
